@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>B2T Admin Panel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">B2T Travels Admin</a>
+        <a href="index.html" class="btn btn-outline-light btn-sm">View Website</a>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">Update Price Rate</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Current Rate per KM (LKR)</label>
+                                <input type="number" class="form-control" value="200">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Save Rate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-secondary text-white">Upload to Gallery</div>
+                    <div class="card-body">
+                        <form enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label>Select Image</label>
+                                <input type="file" class="form-control-file">
+                            </div>
+                            <div class="form-group">
+                                <label>Image Title/Caption</label>
+                                <input type="text" class="form-control" placeholder="e.g. Kandy Trip">
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Upload Image</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-dark text-white">Manage Reviews</div>
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Customer Name</th>
+                                    <th>Rating</th>
+                                    <th>Review</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2026-04-10</td>
+                                    <td>John Doe</td>
+                                    <td>5/5</td>
+                                    <td>Great and safe driving!</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-success">Approve</button>
+                                        <button class="btn btn-sm btn-danger">Delete</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
