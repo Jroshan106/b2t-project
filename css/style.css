@@ -9946,3 +9946,115 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Core Backgrounds & Typography */
+body {
+    background-color: #000000 !important;
+    color: #e0e0e0 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #ffffff !important;
+}
+
+p {
+    color: #b3b3b3 !important;
+}
+
+/* Override Template 'Light' Backgrounds to Dark */
+.bg-light, .bg-white {
+    background-color: #0d0d0d !important;
+}
+
+/* Sections and Cards */
+.ftco-section {
+    background-color: #000000 !important;
+}
+
+.ftco-section.bg-light {
+    background-color: #0a0a0a !important; /* Subtle contrast for alternating sections */
+}
+
+.car-wrap, .testimony-wrap, .card {
+    background-color: #141414 !important;
+    border: 1px solid #222 !important;
+}
+
+/* Primary Accents (Blue) */
+.bg-primary {
+    background-color: #0056b3 !important; /* Deep Modern Blue */
+}
+
+.text-primary, .subheading, .navbar-brand span {
+    color: #007bff !important; /* Brighter Blue for Text */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: #003d82 !important;
+    border-color: #003d82 !important;
+}
+
+.btn-secondary {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.btn-secondary:hover {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+/* Navigation Bar */
+.ftco-navbar-light {
+    background: #000000 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #ffffff !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: #007bff !important;
+}
+
+.ftco-navbar-light.scrolled {
+    background: #000000 !important;
+    box-shadow: 0 5px 20px -5px rgba(0,0,0,0.8) !important;
+}
+
+/* Inputs & Forms */
+.form-control {
+    background-color: #111111 !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.form-control:focus {
+    border-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+.request-form {
+    background-color: #0a0a0a !important;
+    border: 1px solid #222 !important;
+}
+
+.request-form .label {
+    color: #ffffff !important;
+}
+
+/* Footer */
+.ftco-footer {
+    background-color: #050505 !important;
+    border-top: 1px solid #1a1a1a !important;
+}
