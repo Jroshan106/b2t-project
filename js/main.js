@@ -320,7 +320,19 @@
 	});
 	$('#time_pick').timepicker();
 
+// Dynamic Price Calculation
+	let pricePerKm = 200; 
 
+	$('#distance_km').on('input', function() {
+		let km = parseFloat($(this).val());
+		if(!isNaN(km) && km > 0) {
+			let total = km * pricePerKm;
+			// Format as LKR with commas
+			$('#est_price').text('Rs. ' + total.toLocaleString('en-US') + '.00');
+		} else {
+			$('#est_price').text('Rs. 0');
+		}
+	});
 
 })(jQuery);
 
